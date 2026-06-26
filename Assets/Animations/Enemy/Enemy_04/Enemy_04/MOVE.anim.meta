@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7566fc8e1790bf5438f1e18b2de2c419
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 197211
+  packageName: 2D Monster ORC - SPUM Premium Addon Pack
+  packageVersion: 3.1.0
+  assetPath: Assets/SPUM/Core/Basic_Resources/Animator/Unit/MOVE.anim
+  uploadId: 777909
