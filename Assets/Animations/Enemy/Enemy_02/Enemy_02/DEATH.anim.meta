@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 357e6600a5a2e1d489c72f33bb86ae4a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 197211
+  packageName: 2D Monster ORC - SPUM Premium Addon Pack
+  packageVersion: 3.1.0
+  assetPath: Assets/SPUM/Core/Basic_Resources/Animator/Unit/DEATH.anim
+  uploadId: 777909
