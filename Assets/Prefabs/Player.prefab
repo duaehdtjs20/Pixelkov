@@ -307,11 +307,8 @@ GameObject:
   - component: {fileID: 166578536958050397}
   - component: {fileID: 6426153799527218986}
   - component: {fileID: 2348943231183595274}
-  - component: {fileID: 5152719094620550274}
   - component: {fileID: 3940898536562391677}
   - component: {fileID: 137761821346895870}
-  - component: {fileID: 4138235096794794023}
-  - component: {fileID: 7443549096137549447}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -420,25 +417,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5152719094620550274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5655884337724897093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a43e194a9d2c5524b99e9c3cc7a99e70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Player
-  moveSpeed: 5
-  dodgeSpeed: 15
-  dodgeDuration: 0.2
-  invincibleTime: 0.2
-  maxDodgeCount: 2
-  dodgeRecoverTime: 3
-  characterVisual: {fileID: 486713769497395040}
 --- !u!50 &3940898536562391677
 Rigidbody2D:
   serializedVersion: 5
@@ -503,36 +481,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.13, y: 0.19}
   m_Direction: 0
---- !u!114 &4138235096794794023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5655884337724897093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 736ae8ab9368a7b4a8df41af325826c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerShooter
-  firePoint: {fileID: 6644026070444435548}
-  projectilePrefab: {fileID: 9035936711871648366, guid: 0a8380c098b226a4b8d997836d6f1139, type: 3}
-  fireDelay: 0.5
-  arrowSpeed: 10
-  animator: {fileID: 4410565919377579043}
---- !u!114 &7443549096137549447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5655884337724897093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b666e7b0ecdda044faf9898880384ac6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerAnimationController
-  characterRenderer: {fileID: 0}
 --- !u!1 &7321191253876408212
 GameObject:
   m_ObjectHideFlags: 0
@@ -771,11 +719,6 @@ PrefabInstance:
 --- !u!4 &486713769497395040 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2744824147717177297, guid: 6ec3971c995c04349a2ee724c4844fad, type: 3}
-  m_PrefabInstance: {fileID: 2366277241667993777}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &4410565919377579043 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 2153792408948022418, guid: 6ec3971c995c04349a2ee724c4844fad, type: 3}
   m_PrefabInstance: {fileID: 2366277241667993777}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &7465084099071622721 stripped
