@@ -126,5 +126,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Cursor
   cam: {fileID: 0}
   cursorImage: {fileID: 5691071140343977566}
-  crossHair: {fileID: 21300002, guid: 66995b6b61aed864daa956ae255d7fee, type: 3}
-  mouseCursor: {fileID: 21300000, guid: 95638ad22ce07409e864eeb2fbf8e4a3, type: 3}
+  crossHairSprite: {fileID: 21300002, guid: 66995b6b61aed864daa956ae255d7fee, type: 3}
+  cursorSprite: {fileID: 21300000, guid: 95638ad22ce07409e864eeb2fbf8e4a3, type: 3}
+  offset: {x: 0, y: 0}
